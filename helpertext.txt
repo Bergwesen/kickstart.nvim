@@ -1,0 +1,11 @@
+BEFEHLER DIE HILFREICH SIND ODER DIE ICH NOCH LERNEN MUSS
+
+
+Windows : Ctrl-W
+Tabs :
+	neuer Tab = :tab ( keymap dazu finden oder erstellen)
+	Tab wechseln = ]b oder b[ 
+
+
+
+
