@@ -193,6 +193,10 @@ vim.keymap.set('t', '<Esc><Esc>', '<C-\\><C-n>', { desc = 'Exit terminal mode' }
 -- Keybinds to make split navigation easier.
 --  Use CTRL+<hjkl> to switch between windows
 --
+-- MEINE KEYBINDS
+vim.keymap.set('n', '<leader>e', ':Neotree toggle <CR>', { desc = 'neotree shortcut' })
+--
+--
 --  See `:help wincmd` for a list of all window commands
 vim.keymap.set('n', '<C-h>', '<C-w><C-h>', { desc = 'Move focus to the left window' })
 vim.keymap.set('n', '<C-l>', '<C-w><C-l>', { desc = 'Move focus to the right window' })
@@ -278,6 +282,13 @@ require('lazy').setup({
       'nvim-lua/plenary.nvim',
       'MunifTanjim/nui.nvim',
       'nvim-tree/nvim-web-devicons', -- optional, but recommended
+    },
+    opts = {
+      filesystem = {
+        filtered_items = {
+          visible = true,
+        },
+      },
     },
     lazy = false, -- neo-tree will lazily load itself
   },
